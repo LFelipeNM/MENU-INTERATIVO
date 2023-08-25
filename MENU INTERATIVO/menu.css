@@ -1,0 +1,88 @@
+.pp li a:hover {
+    color: #ff0000;
+    opacity: initial;
+}
+
+.menu h1 {
+
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    left: 200%;
+    top: 5%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 89%;
+    top: 5.5%;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    
+
+
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 370%;
+    top: 96%;
+    height: 1350%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+nav ul ul li {
+    display: block;
+    text-decoration: none;
+}
+
+nav ul ul li a {
+    padding: 10px;
+    color: #59750B;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 135%;
+    line-height: 29px;
+    left: 16000%;
+    text-decoration: none;
+
+}
+
+.pp span {
+    color: #000000;
+}
